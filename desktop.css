@@ -1,62 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-html {
-  font-family: 'league Spartan', sans-serif;
-}
-
-@media (min-width: 500px) {
-
-  .main_container {
-    width: 100%;
-    margin: 80px auto;
-    display: grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 300px 300px 300px;
-    grid-template-areas:
-    'header header stars'
-    'cards cards cards'
+@media only screen and (min-width: 768px) {
+    html {
+      background-color: springgreen;
+    }
   }
-
-  .miain_container {
-    display: flex;
-    flex-direction: row;
-
-  }
-
-  header {
-    grid-area: header;
-  }
-  
-  .stars_container1 {
-    flex-direction: row;
-    align-items: center;
-    grid-area: stars;
-
-  }
-  
-  .card_container {
-    display: flex;
-    gap: 20px;
-    grid-area: cards;
-    flex-direction: row;
-  }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,0 +1,37 @@
+
+
+
+@media only screen and (min-width: 376px) {
+ 
+  html {
+    background-color: blue;
+  }
+  
+  .stars_container {
+    padding: 0 25px;
+  }  
+  .stars1 {
+    padding: 0 25px;
+    align-self: flex-start;
+  }
+  .stars3 {
+    align-self: flex-end;
+  }
+  .stars_container {
+    padding: 0 14px;
+  }
+  .card1 {
+    align-self: flex-start;
+  }
+  .card3 {
+    align-self: flex-end;
+  }
+  }
+
+
+
+
+
+
+
+
